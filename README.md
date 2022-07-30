@@ -23,6 +23,8 @@ The PyBer summary dataframe of ride sharing data between Jan 2019 and April 2019
 
 The multiple line chart was created by using different functions in pandas and a dataframe was created. Pivot funaction was used to create a dataframe to get the total fares for each type of city by the date. Using the loc function the another dataframe was created on the given dates from the pivot table. The "date" index is changed to datetime datatype which was necessary to use resample method. Uding resample method in weekly bins, a dataframe was created to find the sum of fares for each week in each city type
 
+![image](https://user-images.githubusercontent.com/108298416/181871518-41da8ca6-aeba-478d-8104-d76f64c1bfe6.png)
+
 
 
 
