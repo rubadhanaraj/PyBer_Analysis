@@ -12,7 +12,7 @@ The PyBer summary dataframe of ride sharing data between Jan 2019 and April 2019
 
 * The total rides count in urban city type is higher than the suburban and rural city types.
 
-![image](https://user-images.githubusercontent.com/108298416/181870967-ce2fa1bd-74d8-4f30-85ce-327d955e6392.png)
+ ![image](https://user-images.githubusercontent.com/108298416/181870967-ce2fa1bd-74d8-4f30-85ce-327d955e6392.png)
 
 * Urban cities have more drivers than suburban and rural cities. 
 
@@ -24,6 +24,9 @@ The PyBer summary dataframe of ride sharing data between Jan 2019 and April 2019
 The multiple line chart was created by using different functions in pandas and a dataframe was created. Pivot funaction was used to create a dataframe to get the total fares for each type of city by the date. Using the loc function the another dataframe was created on the given dates from the pivot table. The "date" index is changed to datetime datatype which was necessary to use resample method. Uding resample method in weekly bins, a dataframe was created to find the sum of fares for each week in each city type
 
 ![image](https://user-images.githubusercontent.com/108298416/181871518-41da8ca6-aeba-478d-8104-d76f64c1bfe6.png)
+
+## Summary 
+The rides in rural city type between the months of January and April 2019 were only 5%, due to the less number of drivers and available rides. This can be fixed by assigning more drivers in rural cities. The average fare per driver and ride in rural cities were higher than suburban and urban city types and this might be due to the more demand for rides and the drivers engaged in the current rides. It could be reduced by offering more rides in rural city type. Generally, allocating more drivers will increase the revenue of the ride sharing company and meet the demand for rides.
 
 
 
